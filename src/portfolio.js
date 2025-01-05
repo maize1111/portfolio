@@ -20,16 +20,15 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Haoran Sun",
-  title: "Hi there, I'm Haoran",
+  username: "Yuhan Pan",
+  title: "👋 Hi there, I'm Yuhan",
   subTitle: [
+    emoji("💻 4+ years of work experience as a DevOps Engineer"),
+    emoji("💻 2+ years of work experience as a Full-Stack Software Developer"),
+    emoji("💻 2+ years of work experience in team and project management"),
     emoji(
-      "🔧 Over three years of experience as a backend developer for Meituan (Dianping App)"
-    ),
-    emoji(
-      " 💻 Proficient in Java and Spring, with over 100k lines of code written for the Dianping App"
-    ),
-    emoji("💼 Working for Mastercard as A SDE II now")
+      "👀 I’m looking for job as a Full-stack Developer or DevOps Engineer."
+    )
   ],
   resumeLink:
     "https://docs.google.com/document/d/1dHEOj-4GocPFqiXej0mltcRS2Pj11NN_NbCD5N9JkWY/edit?usp=sharing", // Set to empty to hide the button
@@ -39,10 +38,10 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/sunmaize",
-  linkedin: "https://www.linkedin.com/in/haoran-sun-hannah/",
-  gmail: "hannahsun.ca@gmail.com",
-  medium: "https://medium.com/@hannahsun.ca",
+  github: "https://github.com/maize1111",
+  linkedin: "https://www.linkedin.com/in/yuhan-pan-62291b2b9/",
+  gmail: " alessiopangamer@gmail.com",
+  //  medium: "https://medium.com/@hannahsun.ca",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -52,17 +51,12 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle:
-    "EXPERIENCED BACKEND DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "EXPERIENCED DEVOPS DEVELOPER WHO ALSO HAS FULL-STACK EXPERIENCE",
   skills: [
+    emoji("⚡ Proficient in DevOps."),
+    emoji("⚡ Experienced in building and optimizing full-stack systems."),
     emoji(
-      "⚡ Proficient in backend development using Java, Spring, MySQL, and Redis."
-    ),
-    emoji(
-      "⚡ Experienced in building and optimizing scalable, high-performance distributed systems."
-    ),
-    emoji(
-      "⚡ Strong skills in database optimization and managing large datasets using techniques like indexing and sharding."
+      "⚡ Experienced in Data Center IT for financial and insurance sectors."
     ),
     emoji(
       "⚡ Adept at collaborating with cross-functional teams to deliver solutions that balance technical efficiency with business goals."
@@ -155,31 +149,21 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Tongji University",
-      logo: require("./assets/images/tongjiLogo.png"),
-      subHeader: "Master in Control Science and Engineering",
-      duration: "September 2018 - March 2021",
-      desc: "Ranked in the top 10% of my major. Participated in the research of Robotics and published 2 patterns. Participated in the RoboCup Soccer team(TJArk) and won the China Regional Championship, advancing to the quarterfinals in the World Cup.",
-      descBullets: [
-        "2021 Outstanding graduate of Tongji University",
-        "2019 Outstanding student of Tongji University",
-        "Champion of 2019 RoboCup China Open",
-        "SMIC MengNing Scholarship of SongQingling Foundation",
-        "Second Place of 2019 China Post Graduate Mathematical Contest in Modeling"
-      ]
+      schoolName: "New York Institute of Technology - Vancouver",
+      logo: require("./assets/images/nyitLogo.png"),
+      subHeader: "Master of Science in Cybersecurity",
+      duration: "September 2023 - December 2024",
+      //      desc: "Ranked in the top 10% of my major. Participated in the research of Robotics and published 2 patterns. Participated in the RoboCup Soccer team(TJArk) and won the China Regional Championship, advancing to the quarterfinals in the World Cup.",
+      desc: "TODO add some description.",
+      descBullets: ["TODO add some awards and certificates"]
     },
     {
       schoolName: "Shanghai University",
       logo: require("./assets/images/shangdaLogo.png"),
-      subHeader: "Bachelor of Engineering in Automation",
+      subHeader: "Bachelor of Engineering in Computer Science",
       duration: "September 2014 - July 2018",
-      desc: "Ranked 1st in the major. Participated in the RoboCup Basketball team and won second place in the China Regional Competition.",
-      descBullets: [
-        "2018 Outstanding Graduate of Shanghai University",
-        "2016/2017 Outstanding Student of Shanghai University",
-        "2016/2017 Excellence Academic Scholarship",
-        "Second Place of 2017 China Robot Competition Basketball Robot Group"
-      ]
+      desc: "TODO add some description",
+      descBullets: ["TODO add some awards and certificates"]
     }
   ]
 };
@@ -190,16 +174,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "System Design", //Insert stack or technology you have experience in
-      progressPercentage: "75%" //Insert relative proficiency in percentage
+      Stack: "Full-Stack", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "DevOps",
       progressPercentage: "90%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "80%"
+      progressPercentage: "75%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -211,52 +195,38 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Development Engineer II",
-      company: "Mastercard",
-      companylogo: require("./assets/images/mastercardLogo.png"),
-      date: "November 2024 – Present",
-      desc: "As a backend software engineer in the Decision Management Program, I focus on developing and maintaining scalable backend systems that power Mastercard’s decision-making processes.",
+      role: "Graduate Teaching Assistant",
+      company: "NYIT - Vancouver",
+      companylogo: require("./assets/images/nyitLogo.png"),
+      date: "May 2024 – December 2024",
+      desc: "Teaching Assistant for Professor Sara Khanchi for two courses: Intrusion Detection and Advanced Network Security.",
       descBullets: [
-        "Designing, implementing, and optimizing APIs.",
-        "Enhancing system performance, reliability, and scalability.",
-        "Collaborating with cross-functional teams to integrate advanced tools.",
-        "Supporting business-critical systems to ensure seamless transaction processing and decision-making capabilities."
+        "Attending classes, guiding students through lab demos",
+        "Addressing students' course-related questions",
+        "Grading exams and assignments."
       ]
     },
     {
-      role: "Software Development Engineer II",
-      company: "Meituan",
-      companylogo: require("./assets/images/meituanLogo.png"),
-      date: "July 2022 – May 2024",
-      desc: "Took on more leadership responsibilities, including system design, backend architecture improvements, and driving key technical initiatives that significantly impacted system scalability, performance, and business operations.",
+      role: "DevOps Engineer & Project Manager",
+      company: "China Life Insurance",
+      companylogo: require("./assets/images/china_life_insurance_co_ltd_logo.jpeg"),
+      date: "June 2020 – August 2022",
+      desc: "Led and managed 4 key business systems, including the internal Instant Messaging System, Digital Seal System, Digital Signature System, and Enterprise System Monitoring System, with peak transaction volume reaching 350,000 daily.",
       descBullets: [
-        "Led the modularization of the review incentive system, reducing development time by 70%.",
-        "Spearheaded database optimization for Free Trial, improving storage stability and system scalability.",
-        "Developed subscription features for Free Trial, increasing DAU by 16% and driving user engagement."
+        "Responsible for DevOps and system administration of these systems.",
+        "Covering deployment, upgrades, monitoring, security, customer IT support, and incident response.."
       ]
     },
     {
-      role: "Software Development Engineer",
-      company: "Meituan",
-      companylogo: require("./assets/images/meituanLogo.png"),
-      date: "May 2021 – July 2022",
-      desc: "Focused on backend development and system maintenance, gaining valuable experience in handling complex systems and supporting various business needs. Actively contributed to system stability, performance optimizations, and the development of new features.",
+      role: "Full-stack Developer & DevOps Engineer",
+      company: "China Life Insurance",
+      companylogo: require("./assets/images/china_life_insurance_co_ltd_logo.jpeg"),
+      date: "July 2018 – June 2020",
+      //      desc: "Focused on backend development and system maintenance, gaining valuable experience in handling complex systems and supporting various business needs. Actively contributed to system stability, performance optimizations, and the development of new features.",
       descBullets: [
-        "Contributed to question-answer backend reconstruction, enhancing user management and operational efficiency.",
-        "Supported video processing optimization, reducing processing time by 54% and improving success rates.",
-        "Delivered MVP of review incentive campaign manage system, enabling faster feature deployment and improved operational workflows."
-      ]
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Meituan(Dianping App)",
-      companylogo: require("./assets/images/dianpingLogo.png"),
-      date: "April 2020 – July 2020",
-      desc: "Gained hands-on experience in backend development and took on several key responsibilities, laying a strong foundation for my future work as a full-time developer.",
-      descBullets: [
-        "Contributed to developing and deploying customer-facing features, improving user experience.",
-        "Completed upgrades for several services, enhancing system stability and security.",
-        "Gained proficiency in Java, web application frameworks, and layered application design principles."
+        "Contributed to the design and development of a batch job monitoring system using a front-end Vue.js and back-end Spring MVC architecture.",
+        "Led the continuous enhancement and feature iterations for the Data Quality Management Platform using Spring Boot.",
+        "Served as DevOps Engineer for the Insurance Underwriting Application, ensuring system availability, stability, and incident resolution."
       ]
     }
   ]
@@ -272,37 +242,30 @@ const openSource = {
 };
 
 // Some big projects you have worked on
-// TODO: 完善我的BigProject之后再打开
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  //  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/archethought_logo.jpeg"),
+      projectName: "A New Relation Service System Based on NATs and FastAPI",
+      projectDesc:
+        "This project involves building a new human relations service system using NATS and FastAPI, in collaboration with Archethought Inc. Associated with New York Institute of Technology - Vancouver",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Project Certificate",
+          url: "https://media.licdn.com/dms/image/v2/D4E2DAQEZcSxfchNzbw/profile-treasury-document-cover-images_480/profile-treasury-document-cover-images_480/0/1733369630784?e=1736661600&v=beta&t=kAi3S5JHN-AdtxGSDi-VV5yyBPdNwN_3K_j2VMNvyIc"
+        },
+        {
+          name: "Certificate from Archethought Inc.",
+          url: "https://media.licdn.com/dms/image/v2/D4D2DAQGwR6P7YnKBJQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1733521264270?e=1736661600&v=beta&t=G-EyzgqXPUAm_ROctKvvElZyvsmxxb5fgdKiMtReepA"
         }
         //  you can add extra buttons here.
       ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -315,7 +278,7 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Basketball Robot Team",
+      title: "TODO Basketball Robot Team",
       subtitle:
         "Second Place of 2017 China Robot Competition Basketball Robot Group. Developed an OpenCV-based vision system for the basketball robot, enhancing real-time object detection and competition performance.",
       image: require("./assets/images/BasketballRobot.png"),
@@ -397,7 +360,7 @@ const blogSection = {
         "Learn how to build and deploy your own developer portfolio using React, GitHub Pages, and custom icons to showcase your skills in style."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -438,14 +401,14 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  email_address: "hannahsun.ca@gmail.com"
+  email_address: " alessiopangamer@gmail.com"
 };
 
 // Twitter Section

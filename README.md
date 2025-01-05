@@ -1,7 +1,8 @@
 # Building and Deploying a Personal Portfolio Website with GitHub Pages
 
 As a developer, having a personal portfolio website is essential for showcasing your skills and projects. This guide walks you through the process of setting up a portfolio website using the [DeveloperFolio](https://github.com/saadpasta/developerFolio) project and deploying it via GitHub Pages.
-![portfolio](./src/assets/images/portfolio.png)
+
+[//]: # (![portfolio]&#40;./src/assets/images/portfolio.png&#41;)
 ## Steps
 
 ### 1. Fork the GitHub Repository
@@ -49,7 +50,18 @@ This is the core configuration file of the project. The file is modular, allowin
 ### 5. Replace the Favicon
 To personalize the website further, I used [RealFaviconGenerator](https://realfavicongenerator.net/) to upload my logo and generate a full set of favicons for different devices. Replace the default favicon files in the `public` folder with the generated ones from the tool.
 
-### 6. Run Code Format Check
+### 6. Check in local
+#### Install dependencies
+```bash
+npm install
+```
+
+#### Start a local dev server
+```bash
+npm start
+```
+
+### 7. Run Code Format Check
 Before deploying, it's important to maintain consistent code formatting. The project uses Prettier for this purpose. You can run the following commands to check and format your code:
 
 ```bash
@@ -60,7 +72,7 @@ npm run format
 - `npm run check-format` checks for any formatting issues, and if there are files you don't want Prettier to process, you can add them to the `.prettierignore` file.
 - `npm run format` automatically fixes any format issues in the code.
 
-### 7. Prepare for Deployment
+### 8. Prepare for Deployment
 I chose to use GitHub Actions to automatically deploy my portfolio website. Before deploying, make sure you set the `homepage` and `name` fields in your `package.json` file to point to your GitHub Pages URL:
 
 ```json
@@ -68,9 +80,15 @@ I chose to use GitHub Actions to automatically deploy my portfolio website. Befo
 "name": "your-portfolio"
 ```
 
-### 8. Clean and Build the Project
+### 9. Clean and Build the Project
 Before deployment, it's important to clean up the project and prepare it for production. Run the following commands:
 
+#### Build
+```bash
+npm run build
+```
+
+#### Pages
 ```bash
 npx gh-pages-clean
 npx gh-pages -d build
