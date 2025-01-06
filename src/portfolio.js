@@ -78,14 +78,19 @@ https://fontawesome.com/icons?d=gallery */
         "https://img.icons8.com/?size=100&id=13679&format=png&color=000000"
     },
     {
+      skillName: "python",
+      iconUrl:
+        "https://img.icons8.com/?size=100&id=13441&format=png&color=000000"
+    },
+    {
       skillName: "cpp",
       iconUrl:
         "https://img.icons8.com/?size=100&id=tmthf8xybKpa&format=png&color=000000"
     },
     {
-      skillName: "python",
+      skillName: "Git",
       iconUrl:
-        "https://img.icons8.com/?size=100&id=13441&format=png&color=000000"
+        "https://img.icons8.com/?size=100&id=20906&format=png&color=000000"
     },
     {
       skillName: "Spring",
@@ -103,41 +108,53 @@ https://fontawesome.com/icons?d=gallery */
         "https://img.icons8.com/?size=100&id=pHS3eRpynIRQ&format=png&color=000000"
     },
     {
+      skillName: "NATS",
+      iconUrl:
+        "https://docs.nats.io/~gitbook/image?url=https%3A%2F%2F1487470910-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fspaces%252F-LqMYcZML1bsXrN3Ezg0%252Favatar.png%3Fgeneration%3D1571848018902627%26alt%3Dmedia&width=32&dpr=1&quality=100&sign=b857e0c2&sv=2"
+    },
+    {
       skillName: "ElasticSearch",
       iconUrl:
         "https://img.icons8.com/?size=100&id=aGBLcugRkYpT&format=png&color=000000"
     },
     {
-      skillName: "Git",
+      skillName: "Kibana",
       iconUrl:
-        "https://img.icons8.com/?size=100&id=20906&format=png&color=000000"
+        "https://img.icons8.com/?size=100&id=viVPreeQBfSH&format=png&color=000000"
     },
     {
       skillName: "Docker",
       iconUrl:
         "https://img.icons8.com/?size=100&id=cdYUlRaag9G9&format=png&color=000000"
     },
-    //    {
-    //      skillName: "swift",
-    //      fontAwesomeClassname: "fab fa-swift"
-    //    },
-    //    {
-    //      skillName: "npm",
-    //      fontAwesomeClassname: "fab fa-npm"
-    //    },
-    //    {
-    //      skillName: "database",
-    //      iconUrl: "https://img.icons8.com/?size=100&id=8305&format=png&color=000000"
-    //    },
+    {
+      skillName: "Kubernetes",
+      iconUrl:
+        "https://img.icons8.com/?size=48&id=cvzmaEA4kC0o&format=png&color=000000"
+    },
+    {
+      skillName: "Jenkins",
+      iconUrl:
+        "https://img.icons8.com/?size=100&id=41317&format=png&color=000000"
+    },
     {
       skillName: "aws",
       iconUrl:
         "https://img.icons8.com/?size=100&id=33039&format=png&color=000000"
     },
     {
-      skillName: "Kafka",
+      skillName: "Prometheus",
       iconUrl:
-        "https://img.icons8.com/?size=100&id=fOhLNqGJsUbJ&format=png&color=000000"
+        "https://img.icons8.com/?size=100&id=Ei4ZhVQvIMHE&format=png&color=000000"
+    },
+    {
+      skillName: "Grafana",
+      iconUrl:
+        "https://img.icons8.com/?size=100&id=bMkmDxPRZAld&format=png&color=000000"
+    },
+    {
+      skillName: "Pinpoint",
+      iconUrl: "https://avatars.githubusercontent.com/u/72777607?s=48&v=4"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -154,16 +171,18 @@ const educationInfo = {
       subHeader: "Master of Science in Cybersecurity",
       duration: "September 2023 - December 2024",
       //      desc: "Ranked in the top 10% of my major. Participated in the research of Robotics and published 2 patterns. Participated in the RoboCup Soccer team(TJArk) and won the China Regional Championship, advancing to the quarterfinals in the World Cup.",
-      desc: "TODO add some description.",
-      descBullets: ["TODO add some awards and certificates"]
+      desc: "GPA: 3.8/4.0",
+      descBullets: [
+        "Post-Graduate Teaching Assistant for two courses: Intrusion Detection and Advanced Network Security"
+      ]
     },
     {
       schoolName: "Shanghai University",
       logo: require("./assets/images/shangdaLogo.png"),
       subHeader: "Bachelor of Engineering in Computer Science",
-      duration: "September 2014 - July 2018",
-      desc: "TODO add some description",
-      descBullets: ["TODO add some awards and certificates"]
+      duration: "September 2014 - July 2018"
+      // desc: "TODO add some description",
+      // descBullets: ["TODO add some awards and certificates"]
     }
   ]
 };
@@ -175,7 +194,7 @@ const techStack = {
   experience: [
     {
       Stack: "Full-Stack", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
+      progressPercentage: "75%" //Insert relative proficiency in percentage
     },
     {
       Stack: "DevOps",
@@ -244,14 +263,15 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  //  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "School Projects",
+  subtitle:
+    "SOME PROJECTS AND COMPANIES THAT I WORKED WITH DURING MY STUDENT PERIOD",
   projects: [
     {
       image: require("./assets/images/archethought_logo.jpeg"),
       projectName: "A New Relation Service System Based on NATs and FastAPI",
       projectDesc:
-        "This project involves building a new human relations service system using NATS and FastAPI, in collaboration with Archethought Inc. Associated with New York Institute of Technology - Vancouver",
+        "[Sep 2024 - Dec 2024] This project involves building a new human relations service system using NATS and FastAPI, in collaboration with Archethought Inc. Associated with New York Institute of Technology - Vancouver",
       footerLink: [
         {
           name: "Project Certificate",
@@ -263,6 +283,12 @@ const bigProjects = {
         }
         //  you can add extra buttons here.
       ]
+    },
+    {
+      image: require("./assets/images/BaoSteel.png"),
+      projectName: "Metal Surface Crack Detection Based on OpenCV and Qt",
+      projectDesc:
+        "[Jan 2018 - Jun 2018] This project involves building a new crack detection system for metal surfaces using computer vision (OpenCV), in collaboration with China Baowu Steel Group Corp., Ltd. Associated with Sahnghai University."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -278,46 +304,21 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "TODO Basketball Robot Team",
+      title:
+        "System Integration Project Management Engineer Certificate - Intermediate Level",
       subtitle:
-        "Second Place of 2017 China Robot Competition Basketball Robot Group. Developed an OpenCV-based vision system for the basketball robot, enhancing real-time object detection and competition performance.",
-      image: require("./assets/images/BasketballRobot.png"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Detail",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "News",
-          url: "https://jwb.shu.edu.cn/info/1016/35211.htm"
-        }
-      ]
+        "A nationally recognized certification issued by the Ministry of Industry and Information Technology (MIIT) of China, validating expertise in system integration technologies and project management.",
+      image: require("./assets/images/logo_rk1.jpg"),
+      imageAlt: "China Computer Qualification Certification Logo",
+      footerLink: []
     },
     {
-      title: "Soccer Robot Team",
+      title: "EXIN DevOps Foundation Certificate",
       subtitle:
-        "Contributed to winning the China Championship and achieving Top 8 in the RoboCup Soccer World Cup. Developed an optimized camera extrinsics calibration system for NAO robots, reducing calibration time by 80% and enhancing accuracy for vision tasks.",
-      image: require("./assets/images/naoRobot.jpg"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "Detail",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Media",
-          url: "https://www.youtube.com/watch?v=KkZf3MttR2s&t=19s"
-        },
-        {
-          name: "News",
-          url: "http://news.tongji.edu.cn/info/1003/69413.htm"
-        },
-        {
-          name: "Pattern",
-          url: "https://patents.google.com/patent/CN110930458A/en?oq=CN110930458A"
-        }
-      ]
+        "Demonstrates knowledge of DevOps principles and practices, including their origins, benefits, and applications within organizations.",
+      image: require("./assets/images/EXIN_Badge_Module_Foundation_DevOps-1024x1024.png"),
+      imageAlt: "EXIN DevOps Foundation Certificate",
+      footerLink: []
     }
     //    ,{
     //      title: "PWA Web App Developer",
