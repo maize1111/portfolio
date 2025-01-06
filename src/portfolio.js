@@ -215,37 +215,38 @@ const workExperiences = {
   experience: [
     {
       role: "Graduate Teaching Assistant",
-      company: "NYIT - Vancouver",
+      company: "New York Institute of Technology",
       companylogo: require("./assets/images/nyitLogo.png"),
       date: "May 2024 – December 2024",
-      desc: "Teaching Assistant for Professor Sara Khanchi for two courses: Intrusion Detection and Advanced Network Security.",
+      desc: "Assisted Professor Sara Khanchi in teaching two advanced cybersecurity courses: Intrusion Detection and Advanced Network Security.",
       descBullets: [
-        "Attending classes, guiding students through lab demos",
-        "Addressing students' course-related questions",
-        "Grading exams and assignments."
+        "Facilitated lab demonstrations and guided students through hands-on exercises.",
+        "Addressed students' technical and course-related questions during office hours.",
+        "Graded exams and assignments, ensuring timely and constructive feedback."
       ]
     },
     {
       role: "DevOps Engineer & Project Manager",
-      company: "China Life Insurance",
+      company: "China Life Insurance - Data Center",
       companylogo: require("./assets/images/china_life_insurance_co_ltd_logo.jpeg"),
       date: "June 2020 – August 2022",
-      desc: "Led and managed 4 key business systems, including the internal Instant Messaging System, Digital Seal System, Digital Signature System, and Enterprise System Monitoring System, with peak transaction volume reaching 350,000 daily.",
+      desc: "Managed 5 critical business systems, including the Company Collaboration Platform, Digital Seal System, Digital Signature System, Data Quality Management Platform, and Enterprise System Monitoring System, supporting a peak transaction volume of 350,000 daily.",
       descBullets: [
-        "Responsible for DevOps and system administration of these systems.",
-        "Covering deployment, upgrades, monitoring, security, customer IT support, and incident response.."
+        "Responsible for DevOps operations, system administration, and project management.",
+        "Executed deployments, system upgrades, and performance monitoring to ensure system and application availability.",
+        "Enhanced system security, resolved incidents promptly, and provided customer IT support."
       ]
     },
     {
       role: "Full-stack Developer & DevOps Engineer",
-      company: "China Life Insurance",
+      company: "China Life Insurance - Data Center",
       companylogo: require("./assets/images/china_life_insurance_co_ltd_logo.jpeg"),
       date: "July 2018 – June 2020",
-      //      desc: "Focused on backend development and system maintenance, gaining valuable experience in handling complex systems and supporting various business needs. Actively contributed to system stability, performance optimizations, and the development of new features.",
+      desc: "Focused on full-stack development and DevOps practices, supporting critical systems and delivering high-impact solutions for business needs.",
       descBullets: [
-        "Contributed to the design and development of a batch job monitoring system using a front-end Vue.js and back-end Spring MVC architecture.",
-        "Led the continuous enhancement and feature iterations for the Data Quality Management Platform using Spring Boot.",
-        "Served as DevOps Engineer for the Insurance Underwriting Application, ensuring system availability, stability, and incident resolution."
+        "Designed and developed a batch job monitoring system with a Vue.js front-end and Spring MVC back-end architecture.",
+        "Implemented feature enhancements and performance optimizations for the Data Quality Management Platform using Spring Boot.",
+        "Ensured system reliability and stability as DevOps Engineer for the Insurance Underwriting Application."
       ]
     }
   ]
