@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c6b7700f.css",
-    "main.js": "/portfolio/static/js/main.3f9ff526.js",
+    "main.css": "/portfolio/static/css/main.93bd8259.css",
+    "main.js": "/portfolio/static/js/main.22a5ba13.js",
     "static/css/64.bba8fa55.chunk.css": "/portfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.41912c0a.chunk.js": "/portfolio/static/js/64.41912c0a.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/portfolio/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.6b18baac.chunk.js": "/portfolio/static/js/769.6b18baac.chunk.js",
+    "static/media/NYIT_TA_Certificate_1.jpg": "/portfolio/static/media/NYIT_TA_Certificate_1.91017d6d9641dcd8c625.jpg",
+    "static/media/NYIT_TA_Certificate_2.jpg": "/portfolio/static/media/NYIT_TA_Certificate_2.bbdff9e9368b8fc02b36.jpg",
     "static/media/Montserrat-Regular.ttf": "/portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/resume.pdf": "/portfolio/static/media/resume.87080aea4345da24f2b5.pdf",
     "static/media/EXIN_Badge_Module_Foundation_DevOps-1024x1024.png": "/portfolio/static/media/EXIN_Badge_Module_Foundation_DevOps-1024x1024.ab7231ccb922aa0c906f.png",
@@ -18,15 +20,15 @@
     "static/media/skill.svg": "/portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/portfolio/index.html",
     "static/media/talksCardBack.svg": "/portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.c6b7700f.css.map": "/portfolio/static/css/main.c6b7700f.css.map",
-    "main.3f9ff526.js.map": "/portfolio/static/js/main.3f9ff526.js.map",
+    "main.93bd8259.css.map": "/portfolio/static/css/main.93bd8259.css.map",
+    "main.22a5ba13.js.map": "/portfolio/static/js/main.22a5ba13.js.map",
     "64.bba8fa55.chunk.css.map": "/portfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.41912c0a.chunk.js.map": "/portfolio/static/js/64.41912c0a.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/portfolio/static/css/769.b3cbb36b.chunk.css.map",
     "769.6b18baac.chunk.js.map": "/portfolio/static/js/769.6b18baac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6b7700f.css",
-    "static/js/main.3f9ff526.js"
+    "static/css/main.93bd8259.css",
+    "static/js/main.22a5ba13.js"
   ]
 }
