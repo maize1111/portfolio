@@ -51,7 +51,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "EXPERIENCED DEVOPS DEVELOPER WHO ALSO HAS FULL-STACK EXPERIENCE",
+  subTitle: "EXPERIENCED DEVOPS ENGINEER WHO ALSO HAS FULL-STACK EXPERIENCE",
   skills: [
     emoji("⚡ Proficient in DevOps."),
     emoji("⚡ Experienced in building and optimizing full-stack systems."),
@@ -174,6 +174,12 @@ const educationInfo = {
       desc: "GPA: 3.8/4.0",
       descBullets: [
         "Post-Graduate Teaching Assistant for two courses: Intrusion Detection and Advanced Network Security"
+      ],
+      footerLink: [
+        {
+          name: "Project Certificate",
+          url: "https://media.licdn.com/dms/image/v2/D4E2DAQEZcSxfchNzbw/profile-treasury-document-cover-images_480/profile-treasury-document-cover-images_480/0/1733369630784?e=1736661600&v=beta&t=kAi3S5JHN-AdtxGSDi-VV5yyBPdNwN_3K_j2VMNvyIc"
+        }
       ]
     },
     {
@@ -223,6 +229,16 @@ const workExperiences = {
         "Facilitated lab demonstrations and guided students through hands-on exercises.",
         "Addressed students' technical and course-related questions during office hours.",
         "Graded exams and assignments, ensuring timely and constructive feedback."
+      ],
+      footerLink: [
+        {
+          name: "Award Certificates 1",
+          url: require("./assets/images/NYIT_TA_Certificate_1.jpg")
+        },
+        {
+          name: "Award Certificates 2",
+          url: require("./assets/images/NYIT_TA_Certificate_2.jpg")
+        }
       ]
     },
     {
@@ -235,7 +251,8 @@ const workExperiences = {
         "Responsible for DevOps operations, system administration, and project management.",
         "Executed deployments, system upgrades, and performance monitoring to ensure system and application availability.",
         "Enhanced system security, resolved incidents promptly, and provided customer IT support."
-      ]
+      ],
+      footerLink: []
     },
     {
       role: "Full-stack Developer & DevOps Engineer",
@@ -247,7 +264,8 @@ const workExperiences = {
         "Designed and developed a batch job monitoring system with a Vue.js front-end and Spring MVC back-end architecture.",
         "Implemented feature enhancements and performance optimizations for the Data Quality Management Platform using Spring Boot.",
         "Ensured system reliability and stability as DevOps Engineer for the Insurance Underwriting Application."
-      ]
+      ],
+      footerLink: []
     }
   ]
 };
@@ -289,7 +307,8 @@ const bigProjects = {
       image: require("./assets/images/BaoSteel.png"),
       projectName: "Metal Surface Crack Detection Based on OpenCV and Qt",
       projectDesc:
-        "[Jan 2018 - Jun 2018] This project involves building a new crack detection system for metal surfaces using computer vision (OpenCV), in collaboration with China Baowu Steel Group Corp., Ltd. Associated with Sahnghai University."
+        "[Jan 2018 - Jun 2018] This project involves building a new crack detection system for metal surfaces using computer vision (OpenCV), in collaboration with China Baowu Steel Group Corp., Ltd. Associated with Sahnghai University.",
+      footerLink: []
     }
   ],
   display: true // Set false to hide this section, defaults to true
